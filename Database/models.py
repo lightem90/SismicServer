@@ -28,3 +28,9 @@ class User(Base):
     def __repr__(self):
         return '<User %r>' % self.name
 
+
+class SismicLocation(Base):
+    __tablename__ = 'InformazioniLocazioneSismica'
+    id = Column(Integer, primary_key=True)
+    report_id = Column(Integer, unique=False)
+
