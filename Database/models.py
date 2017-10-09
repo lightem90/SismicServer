@@ -1,7 +1,6 @@
 from datetime import datetime
 from sqlalchemy import Column, Integer, String, DateTime
 from Database.database import Base
-from Crypto.Cipher import AES
 
 
 class User(Base):
