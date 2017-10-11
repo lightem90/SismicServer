@@ -1,6 +1,7 @@
 from datetime import datetime
 from sqlalchemy import Column, Integer, String, DateTime
 from Database.database import Base
+from sqlalchemy import inspect
 
 
 class User(Base):
@@ -8,7 +9,7 @@ class User(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(50), unique=False)
     email = Column(String(120), unique=True)
-    secret = Column(String(128), unique=True)
+    secret = Column(String(128), unique=False)
     address = Column(String(120), unique=False)
     phone = Column(String(15), unique=False)
     qualification = Column(String(120), unique=False)
@@ -16,10 +17,13 @@ class User(Base):
     registration_date = Column(DateTime, unique=False)
     confirmed = Column(Integer, unique=False)
 
-    def __init__(self, email, password, name=None, address=None, phone=None, qualification=None, registration=None,
+    def toDict(self):
+        return {c.key: getattr(self, c.key) for c in inspect(self).mapper.column_attrs}
+
+    def __init__(self, email, secret, name=None, address=None, phone=None, qualification=None, registration=None,
                  registrationdate=None):
         self.email = email
-        self.password = password
+        self.secret = secret
         self.name = name
         self.address = address
         self.phone = phone
@@ -32,15 +36,11 @@ class User(Base):
         return '<User %r>' % self.name
 
     def hash_password(self, password):
-        obj = AES.new(self.name, AES.MODE_CBC, self.email)
-        self.secret = obj.encrypt(password)
+        #obj = AES.new(self.name, AES.MODE_CBC, self.email)
+        #self.secret = obj.encrypt(password)
+        return password
 
     def verify_password(self, password):
-        obj = AES.new(self.name, AES.MODE_CBC, self.email)
-        return password == obj.decrypt(self.secret)
-
-
-class SismicLocation(Base):
-    __tablename__ = 'InformazioniLocazioneSismica'
-    id = Column(Integer, primary_key=True)
-    report_id = Column(Integer, unique=False)
+        #obj = AES.new(self.name, AES.MODE_CBC, self.email)
+        #return password == obj.decrypt(self.secret)
+        return True

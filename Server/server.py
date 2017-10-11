@@ -2,6 +2,7 @@
 from os import abort
 
 from flask import Flask, jsonify, render_template, request, url_for  # From module flask import class Flask
+from flask import make_response
 
 from Database.database import db_session, init_db
 from Database.models import User
@@ -14,73 +15,40 @@ def shutdown_session(exception=None):
     db_session.remove()
 
 
-@app.route('/')
-def main():
-    """Render an HTML template and return"""
-    return render_template('hello.html')  # HTML file to be placed under sub-directory templates
-
-
-@app.route('/sismic/registration_form')
-def test():
-    """Render an HTML template and return"""
-    if request.method == 'GET': return render_template('hello.html')
-    email = request.args.get['email']
-    password = request.args.get['secret']
-    name = request.args.get['name']
-    address = request.args.get['address']
-    phone = request.args.get['phone']
-    qualification = request.args.get['qualification']
-    register = request.args.get['register']
-    if email is None or password is None:
-        abort(400)  # missing arguments
-    if User.query.filter_by(username=email).first() is not None:
-        abort(400)  # existing user
-
-    user = User(email, password, name, address, phone, qualification, register)
-    db_session.add(user)
-    db_session.commit()
-    return jsonify({'username': user.username}), 201, {'Location': url_for('get_user', id=user.id, _external=True)}
-
-
-if __name__ == '__main__':
-    init_db()
-    app.run(debug=True, host='192.168.0.2', port=5000)  # Launch built-in web server and run this Flask webapp
-
-
-@app.route('/sismic/registration_form')
+@app.route('/sismic/registration_form', methods=['POST'])
 def handle_registration():
-    if request.method == 'GET': return render_template('hello.html')
-    email = request.args.get['email']
-    password = request.args.get['secret']
-    name = request.args.get['name']
-    address = request.args.get['address']
-    phone = request.args.get['phone']
-    qualification = request.args.get['qualification']
-    register = request.args.get['register']
+    email = request.args.get('email')
+    password = request.args.get('secret')
+    name = request.args.get('name')
+    address = request.args.get('address')
+    phone = request.args.get('phone')
+    qualification = request.args.get('qualification')
+    register = request.args.get('register')
     if email is None or password is None:
-        abort(400)  # missing arguments
-    if User.query.filter_by(username=email).first() is not None:
-        abort(400)  # existing user
+        make_response("", 560)  # missing arguments
+    if User.query.filter_by(email=email).first() is not None:
+        make_response("", 561)  # existing user
 
     user = User(email, password, name, address, phone, qualification, register)
     db_session.add(user)
     db_session.commit()
-    return jsonify({'username': user.username}), 201, {'Location': url_for('get_user', id=user.id, _external=True)}
+    return make_response("success", 200)
 
 
-@app.route('/sismic/login_form')
+@app.route('/sismic/login_form', methods=['POST'])
 def handle_login():
-    username = request.args.get['username']
-    password = request.args.get['secret']
-    user = User.query.filter_by(username=username).first()
+    email = request.args.get('email')
+    password = request.args.get('secret')
+    user = User.query.filter_by(email=email).first()
     if not user:
-        abort(400)
+        return make_response("user not present", 550)
     else:
         if user.verify_password(password):
-            return jsonify({'username': user.username}), 201, {
-                'Location': url_for('get_user', id=user.id, _external=True)}
+            response = jsonify(user.toDict())
+            response.status_code = 200
+            return response
         else:
-            abort(400)
+            return make_response("invalid psw", 551)
 
 
 @app.route('/sismic/reports', methods=["GET"])
@@ -90,9 +58,20 @@ def show_reports():
 
 @app.route('/sismic/upload_report', methods=["POST"])
 def upload_report():
-    pass
+    return jsonify(request)
 
 
 @app.route('/sismic/upload_report_files', methods=["POST"])
 def upload_file():
     pass
+
+
+@app.route('/')
+def main():
+    """Render an HTML template and return"""
+    return render_template('hello.html')  # HTML file to be placed under sub-directory templates
+
+
+if __name__ == '__main__':
+    init_db()
+    app.run(debug=True, host='192.168.0.11', port=5000)  # Launch built-in web server and run this Flask webapp
