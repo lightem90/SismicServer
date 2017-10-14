@@ -1,7 +1,8 @@
 from datetime import datetime
-from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, JSON
+from sqlalchemy import Column, Integer, String, DateTime, ForeignKey
 from Database.database import Base
 from sqlalchemy import inspect
+import base64
 
 
 class User(Base):
@@ -20,10 +21,9 @@ class User(Base):
     def toDict(self):
         return {c.key: getattr(self, c.key) for c in inspect(self).mapper.column_attrs}
 
-    def __init__(self, email, secret, name=None, address=None, phone=None, qualification=None, registration=None,
+    def __init__(self, email, name=None, address=None, phone=None, qualification=None, registration=None,
                  registrationdate=None):
         self.email = email
-        self.secret = secret
         self.name = name
         self.address = address
         self.phone = phone
@@ -36,14 +36,11 @@ class User(Base):
         return '<User %r>' % self.name
 
     def hash_password(self, password):
-        # obj = AES.new(self.name, AES.MODE_CBC, self.email)
-        # self.secret = obj.encrypt(password)
+        self.secret = base64.b64encode(password)
         return password
 
     def verify_password(self, password):
-        # obj = AES.new(self.name, AES.MODE_CBC, self.email)
-        # return password == obj.decrypt(self.secret)
-        return True
+        return password == base64.b64decode(self.secret)
 
 
 class Report(Base):

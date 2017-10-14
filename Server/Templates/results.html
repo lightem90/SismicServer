@@ -8,7 +8,7 @@
 <div class="risultati">
 
 {% for report in reports %}
-    <pre> {{ report }} </pre>
+    <pre> {{ report|tojson|safe }} </pre>
 {% endfor %}
 
 </div>
