@@ -1,0 +1,14 @@
+<virtualhost *:80>
+    ServerName seismic_server
+
+    WSGIDaemonProcess seismic_server user=seismic group=seismic threads=5 home=/home/tesi/Seismic/Server
+    WSGIScriptAlias / /home/tesi/Seismic/Seismic.wsgi
+
+    <directory /home/tesi/Seismic/Server>
+        WSGIProcessGroup seismic_server
+        WSGIApplicationGroup %{GLOBAL}
+        WSGIScriptReloading On
+        Order deny,allow
+        Allow from all
+    </directory>
+</virtualhost>

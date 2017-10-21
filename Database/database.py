@@ -2,7 +2,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-engine = create_engine('sqlite:////Users\\Matteo\\PycharmProjects\\SismicServer\\Database\\test.db', convert_unicode=True)
+#engine = create_engine('sqlite:////Users\\Matteo\\PycharmProjects\\SismicServer\\Database\\test.db', convert_unicode=True)
+engine = create_engine('sqlite://///home/tesi/Seismic/Database/prod_db.db', convert_unicode=True)       #absoulte path on linux server
 db_session = scoped_session(sessionmaker(autocommit=False,
                                          autoflush=False,
                                          bind=engine))

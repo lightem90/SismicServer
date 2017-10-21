@@ -13,7 +13,7 @@ def shutdown_session(exception=None):
     db_session.remove()
 
 
-@app.route('/sismic/registration_form', methods=['POST'])
+@app.route('/seismic/registration_form', methods=['POST'])
 def handle_registration():
     email = request.args.get('email')
     password = request.args.get('secret')
@@ -34,7 +34,7 @@ def handle_registration():
     return make_response("success", 200)
 
 
-@app.route('/sismic/login_form', methods=['POST'])
+@app.route('/seismic/login_form', methods=['POST'])
 def handle_login():
     email = request.args.get('email')
     password = request.args.get('secret')
@@ -50,7 +50,7 @@ def handle_login():
             return make_response("invalid psw", 551)
 
 
-@app.route('/sismic/reports', methods=["GET"])
+@app.route('/seismic/reports', methods=["GET"])
 def show_reports():
     reportsQueryResult = Report.query.all()
     reports = []
@@ -60,7 +60,7 @@ def show_reports():
     return render_template("results.html", reports=reports, mimetype='application/json')
 
 
-@app.route('/sismic/upload_report', methods=["POST"])
+@app.route('/seismic/upload_report', methods=["POST"])
 def upload_report():
     data = request.json
     if data is None:
@@ -74,7 +74,7 @@ def upload_report():
 
 
 #TODO? remove files won't be probably uploaded
-@app.route('/sismic/upload_report_files', methods=["POST"])
+@app.route('/seismic/upload_report_files', methods=["POST"])
 def upload_file():
     pass
 
@@ -88,4 +88,5 @@ def main():
 
 if __name__ == '__main__':
     init_db()
-    app.run(debug=True, host='192.168.0.11', port=5000)  # Launch built-in web server and run this Flask webapp
+    #app.run(debug=True, host='192.168.0.1', port=5000)  # Launch built-in web server and run this Flask webapp, remember address of local pc
+    app.run()
