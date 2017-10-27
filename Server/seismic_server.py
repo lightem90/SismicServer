@@ -2,8 +2,11 @@
 from flask import Flask, jsonify, render_template, request, json  # From module flask import class Flask
 from flask import make_response
 
-from Database.database import db_session, init_db
-from Database.models import User, Report
+import sys
+sys.path.append('../Database/')
+
+from database import db_session, init_db
+from models import User, Report
 
 app = Flask(__name__)  # Construct an instance of Flask class for our webapp
 
@@ -11,6 +14,12 @@ app = Flask(__name__)  # Construct an instance of Flask class for our webapp
 @app.teardown_appcontext
 def shutdown_session(exception=None):
     db_session.remove()
+
+@app.route('/seismic/shutdown', methods=['POST'])
+def shutdown():    
+	db_session.remove()
+    	shutdown_server()
+    	return 'Server shutting down...'
 
 
 @app.route('/seismic/registration_form', methods=['POST'])
