@@ -1,0 +1,731 @@
+[Fri Oct 27 19:42:10.551162 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:21173] mod_wsgi (pid=16421): Target WSGI script '/home/tesi/Seismic/Server/seismic.wsgi' cannot be loaded as Python module.
+[Fri Oct 27 19:42:10.551239 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:21173] mod_wsgi (pid=16421): Exception occurred processing WSGI script '/home/tesi/Seismic/Server/seismic.wsgi'.
+[Fri Oct 27 19:42:10.559035 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:21173] Traceback (most recent call last):
+[Fri Oct 27 19:42:10.559079 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:21173]   File "/home/tesi/Seismic/Server/seismic.wsgi", line 7, in <module>
+[Fri Oct 27 19:42:10.559086 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:21173]     from seismic_server import app as application
+[Fri Oct 27 19:42:10.559098 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:21173]   File "/home/tesi/Seismic/Server/seismic_server.py", line 2, in <module>
+[Fri Oct 27 19:42:10.559104 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:21173]     from flask import Flask, jsonify, render_template, request, json  # From module flask import class Flask
+[Fri Oct 27 19:42:10.559127 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:21173] ImportError: No module named 'flask'
+[Fri Oct 27 19:43:50.101272 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575] mod_wsgi (pid=16421): Target WSGI script '/home/tesi/Seismic/Server/seismic.wsgi' cannot be loaded as Python module.
+[Fri Oct 27 19:43:50.101324 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575] mod_wsgi (pid=16421): Exception occurred processing WSGI script '/home/tesi/Seismic/Server/seismic.wsgi'.
+[Fri Oct 27 19:43:50.101428 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575] Traceback (most recent call last):
+[Fri Oct 27 19:43:50.101462 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575]   File "/home/tesi/Seismic/Server/seismic.wsgi", line 7, in <module>
+[Fri Oct 27 19:43:50.101469 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575]     from seismic_server import app as application
+[Fri Oct 27 19:43:50.101483 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575]   File "/home/tesi/Seismic/Server/seismic_server.py", line 2, in <module>
+[Fri Oct 27 19:43:50.101490 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575]     from flask import Flask, jsonify, render_template, request, json  # From module flask import class Flask
+[Fri Oct 27 19:43:50.101513 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575] ImportError: No module named 'flask'
+[Fri Oct 27 19:46:40.550137 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575] mod_wsgi (pid=16421): Target WSGI script '/home/tesi/Seismic/Server/seismic.wsgi' cannot be loaded as Python module.
+[Fri Oct 27 19:46:40.550200 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575] mod_wsgi (pid=16421): Exception occurred processing WSGI script '/home/tesi/Seismic/Server/seismic.wsgi'.
+[Fri Oct 27 19:46:40.550521 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575] Traceback (most recent call last):
+[Fri Oct 27 19:46:40.550566 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575]   File "/home/tesi/Seismic/Server/seismic.wsgi", line 7, in <module>
+[Fri Oct 27 19:46:40.550575 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575]     from seismic_server import app as application
+[Fri Oct 27 19:46:40.550593 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575]   File "/home/tesi/Seismic/Server/seismic_server.py", line 7, in <module>
+[Fri Oct 27 19:46:40.550602 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575]     from flask import Flask, jsonify, render_template, request, json  # From module flask import class Flask
+[Fri Oct 27 19:46:40.550632 2017] [wsgi:error] [pid 16421] [remote 127.0.0.1:27575] ImportError: No module named 'flask'
+[Fri Oct 27 20:11:38.180406 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:20661] mod_wsgi (pid=16801): Target WSGI script '/home/tesi/Seismic/Server/seismic.wsgi' cannot be loaded as Python module.
+[Fri Oct 27 20:11:38.180471 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:20661] mod_wsgi (pid=16801): Exception occurred processing WSGI script '/home/tesi/Seismic/Server/seismic.wsgi'.
+[Fri Oct 27 20:11:38.188299 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:20661] Traceback (most recent call last):
+[Fri Oct 27 20:11:38.188347 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:20661]   File "/home/tesi/Seismic/Server/seismic.wsgi", line 7, in <module>
+[Fri Oct 27 20:11:38.188354 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:20661]     from seismic_server import app as application
+[Fri Oct 27 20:11:38.188367 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:20661]   File "/home/tesi/Seismic/Server/seismic_server.py", line 7, in <module>
+[Fri Oct 27 20:11:38.188373 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:20661]     from flask import Flask, jsonify, render_template, request, json  # From module flask import class Flask
+[Fri Oct 27 20:11:38.188397 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:20661] ImportError: No module named 'flask'
+[Fri Oct 27 20:14:53.606576 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:27063] mod_wsgi (pid=16801): Target WSGI script '/home/tesi/Seismic/Server/seismic.wsgi' cannot be loaded as Python module.
+[Fri Oct 27 20:14:53.606631 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:27063] mod_wsgi (pid=16801): Exception occurred processing WSGI script '/home/tesi/Seismic/Server/seismic.wsgi'.
+[Fri Oct 27 20:14:53.606732 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:27063] Traceback (most recent call last):
+[Fri Oct 27 20:14:53.606765 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:27063]   File "/home/tesi/Seismic/Server/seismic.wsgi", line 7, in <module>
+[Fri Oct 27 20:14:53.606773 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:27063]     from seismic_server import app as application
+[Fri Oct 27 20:14:53.606786 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:27063]   File "/home/tesi/Seismic/Server/seismic_server.py", line 7, in <module>
+[Fri Oct 27 20:14:53.606793 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:27063]     from flask import Flask, jsonify, render_template, request, json  # From module flask import class Flask
+[Fri Oct 27 20:14:53.606816 2017] [wsgi:error] [pid 16801] [remote 127.0.0.1:27063] ImportError: No module named 'flask'
+[Fri Oct 27 20:21:19.955167 2017] [wsgi:error] [pid 17665] [remote 127.0.0.1:21173] mod_wsgi (pid=17665): Target WSGI script '/home/tesi/Seismic/Server/seismic.wsgi' cannot be loaded as Python module.
+[Fri Oct 27 20:21:19.955241 2017] [wsgi:error] [pid 17665] [remote 127.0.0.1:21173] mod_wsgi (pid=17665): Exception occurred processing WSGI script '/home/tesi/Seismic/Server/seismic.wsgi'.
+[Fri Oct 27 20:21:19.955732 2017] [wsgi:error] [pid 17665] [remote 127.0.0.1:21173] Traceback (most recent call last):
+[Fri Oct 27 20:21:19.955777 2017] [wsgi:error] [pid 17665] [remote 127.0.0.1:21173]   File "/home/tesi/Seismic/Server/seismic.wsgi", line 7, in <module>
+[Fri Oct 27 20:21:19.955788 2017] [wsgi:error] [pid 17665] [remote 127.0.0.1:21173]     from seismic_server import app as application
+[Fri Oct 27 20:21:19.955805 2017] [wsgi:error] [pid 17665] [remote 127.0.0.1:21173]   File "/home/tesi/Seismic/Server/seismic_server.py", line 13, in <module>
+[Fri Oct 27 20:21:19.955814 2017] [wsgi:error] [pid 17665] [remote 127.0.0.1:21173]     from database import db_session, init_db
+[Fri Oct 27 20:21:19.955846 2017] [wsgi:error] [pid 17665] [remote 127.0.0.1:21173] ImportError: No module named 'database'
+[Fri Oct 27 20:22:15.763015 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101] [2017-10-27 20:22:15,751] ERROR in app: Exception on / [GET]
+[Fri Oct 27 20:22:15.763041 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101] Traceback (most recent call last):
+[Fri Oct 27 20:22:15.763047 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Fri Oct 27 20:22:15.763053 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     response = self.full_dispatch_request()
+[Fri Oct 27 20:22:15.763058 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Fri Oct 27 20:22:15.763071 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     rv = self.handle_user_exception(e)
+[Fri Oct 27 20:22:15.763076 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Fri Oct 27 20:22:15.763081 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     reraise(exc_type, exc_value, tb)
+[Fri Oct 27 20:22:15.763085 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Fri Oct 27 20:22:15.763090 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     raise value
+[Fri Oct 27 20:22:15.763095 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Fri Oct 27 20:22:15.763099 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     rv = self.dispatch_request()
+[Fri Oct 27 20:22:15.763104 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Fri Oct 27 20:22:15.763109 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Oct 27 20:22:15.763113 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/home/tesi/Seismic/Server/seismic_server.py", line 93, in main
+[Fri Oct 27 20:22:15.763118 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     return render_template('hello.html')  # HTML file to be placed under sub-directory templates
+[Fri Oct 27 20:22:15.763123 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/templating.py", line 133, in render_template
+[Fri Oct 27 20:22:15.763128 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+[Fri Oct 27 20:22:15.763133 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 851, in get_or_select_template
+[Fri Oct 27 20:22:15.763138 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     return self.get_template(template_name_or_list, parent, globals)
+[Fri Oct 27 20:22:15.763142 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 812, in get_template
+[Fri Oct 27 20:22:15.763147 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     return self._load_template(name, self.make_globals(globals))
+[Fri Oct 27 20:22:15.763152 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 774, in _load_template
+[Fri Oct 27 20:22:15.763157 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     cache_key = self.loader.get_source(self, name)[1]
+[Fri Oct 27 20:22:15.763161 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/templating.py", line 57, in get_source
+[Fri Oct 27 20:22:15.763166 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     return self._get_source_fast(environment, template)
+[Fri Oct 27 20:22:15.763171 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/templating.py", line 85, in _get_source_fast
+[Fri Oct 27 20:22:15.763176 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101]     raise TemplateNotFound(template)
+[Fri Oct 27 20:22:15.763182 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101] jinja2.exceptions.TemplateNotFound: hello.html
+[Fri Oct 27 20:22:15.763203 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:18101] 
+[Fri Oct 27 20:22:21.811374 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759] [2017-10-27 20:22:21,810] ERROR in app: Exception on / [GET]
+[Fri Oct 27 20:22:21.811411 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759] Traceback (most recent call last):
+[Fri Oct 27 20:22:21.811429 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Fri Oct 27 20:22:21.811436 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     response = self.full_dispatch_request()
+[Fri Oct 27 20:22:21.811443 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Fri Oct 27 20:22:21.811449 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     rv = self.handle_user_exception(e)
+[Fri Oct 27 20:22:21.811456 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Fri Oct 27 20:22:21.811462 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     reraise(exc_type, exc_value, tb)
+[Fri Oct 27 20:22:21.811468 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Fri Oct 27 20:22:21.811474 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     raise value
+[Fri Oct 27 20:22:21.811480 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Fri Oct 27 20:22:21.811486 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     rv = self.dispatch_request()
+[Fri Oct 27 20:22:21.811492 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Fri Oct 27 20:22:21.811499 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Oct 27 20:22:21.811505 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/home/tesi/Seismic/Server/seismic_server.py", line 93, in main
+[Fri Oct 27 20:22:21.811511 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     return render_template('hello.html')  # HTML file to be placed under sub-directory templates
+[Fri Oct 27 20:22:21.811518 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/templating.py", line 133, in render_template
+[Fri Oct 27 20:22:21.811524 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+[Fri Oct 27 20:22:21.811531 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 851, in get_or_select_template
+[Fri Oct 27 20:22:21.811537 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     return self.get_template(template_name_or_list, parent, globals)
+[Fri Oct 27 20:22:21.811543 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 812, in get_template
+[Fri Oct 27 20:22:21.811550 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     return self._load_template(name, self.make_globals(globals))
+[Fri Oct 27 20:22:21.811556 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 774, in _load_template
+[Fri Oct 27 20:22:21.811562 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     cache_key = self.loader.get_source(self, name)[1]
+[Fri Oct 27 20:22:21.811568 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/templating.py", line 57, in get_source
+[Fri Oct 27 20:22:21.811575 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     return self._get_source_fast(environment, template)
+[Fri Oct 27 20:22:21.811581 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/templating.py", line 85, in _get_source_fast
+[Fri Oct 27 20:22:21.811587 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759]     raise TemplateNotFound(template)
+[Fri Oct 27 20:22:21.811601 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759] jinja2.exceptions.TemplateNotFound: hello.html
+[Fri Oct 27 20:22:21.811629 2017] [wsgi:error] [pid 17784] [remote 127.0.0.1:24759] 
+[Fri Oct 27 20:23:36.351643 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357] [2017-10-27 20:23:36,349] ERROR in app: Exception on / [GET]
+[Fri Oct 27 20:23:36.351681 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357] Traceback (most recent call last):
+[Fri Oct 27 20:23:36.351689 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Fri Oct 27 20:23:36.351696 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     response = self.full_dispatch_request()
+[Fri Oct 27 20:23:36.351702 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Fri Oct 27 20:23:36.351709 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     rv = self.handle_user_exception(e)
+[Fri Oct 27 20:23:36.351715 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Fri Oct 27 20:23:36.351722 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     reraise(exc_type, exc_value, tb)
+[Fri Oct 27 20:23:36.351728 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Fri Oct 27 20:23:36.351735 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     raise value
+[Fri Oct 27 20:23:36.351741 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Fri Oct 27 20:23:36.351748 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     rv = self.dispatch_request()
+[Fri Oct 27 20:23:36.351754 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Fri Oct 27 20:23:36.351761 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Oct 27 20:23:36.351768 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/home/tesi/Seismic/Server/seismic_server.py", line 93, in main
+[Fri Oct 27 20:23:36.351774 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     return render_template('hello.html')  # HTML file to be placed under sub-directory templates
+[Fri Oct 27 20:23:36.351781 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/local/lib/python3.5/dist-packages/flask/templating.py", line 133, in render_template
+[Fri Oct 27 20:23:36.351788 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+[Fri Oct 27 20:23:36.351794 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 851, in get_or_select_template
+[Fri Oct 27 20:23:36.351801 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     return self.get_template(template_name_or_list, parent, globals)
+[Fri Oct 27 20:23:36.351808 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 812, in get_template
+[Fri Oct 27 20:23:36.351814 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     return self._load_template(name, self.make_globals(globals))
+[Fri Oct 27 20:23:36.351821 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 774, in _load_template
+[Fri Oct 27 20:23:36.351828 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     cache_key = self.loader.get_source(self, name)[1]
+[Fri Oct 27 20:23:36.351834 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/local/lib/python3.5/dist-packages/flask/templating.py", line 57, in get_source
+[Fri Oct 27 20:23:36.351851 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     return self._get_source_fast(environment, template)
+[Fri Oct 27 20:23:36.351858 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]   File "/usr/local/lib/python3.5/dist-packages/flask/templating.py", line 85, in _get_source_fast
+[Fri Oct 27 20:23:36.351864 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357]     raise TemplateNotFound(template)
+[Fri Oct 27 20:23:36.351872 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357] jinja2.exceptions.TemplateNotFound: hello.html
+[Fri Oct 27 20:23:36.351900 2017] [wsgi:error] [pid 17881] [remote 127.0.0.1:18357] 
+[Thu Nov 02 10:38:54.325097 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] [2017-11-02 10:38:54,306] ERROR in app: Exception on /seismic/registration_form [POST]
+[Thu Nov 02 10:38:54.325126 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] Traceback (most recent call last):
+[Thu Nov 02 10:38:54.325132 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 10:38:54.325137 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     response = self.full_dispatch_request()
+[Thu Nov 02 10:38:54.325142 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 10:38:54.325147 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.handle_user_exception(e)
+[Thu Nov 02 10:38:54.325152 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 10:38:54.325157 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 10:38:54.325162 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 10:38:54.325167 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     raise value
+[Thu Nov 02 10:38:54.325171 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 10:38:54.325176 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.dispatch_request()
+[Thu Nov 02 10:38:54.325181 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 10:38:54.325186 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 10:38:54.325191 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Server/seismic_server.py", line 38, in handle_registration
+[Thu Nov 02 10:38:54.325196 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     user.hash_password(password)
+[Thu Nov 02 10:38:54.325201 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Database/models.py", line 39, in hash_password
+[Thu Nov 02 10:38:54.325206 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     self.secret = base64.b64encode(password)
+[Thu Nov 02 10:38:54.325210 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+[Thu Nov 02 10:38:54.325215 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     encoded = binascii.b2a_base64(s)[:-1]
+[Thu Nov 02 10:38:54.325221 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] TypeError: a bytes-like object is required, not 'str'
+[Thu Nov 02 10:38:54.325243 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] 
+[Thu Nov 02 10:41:04.788582 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] [2017-11-02 10:41:04,788] ERROR in app: Exception on /seismic/registration_form [POST]
+[Thu Nov 02 10:41:04.788632 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] Traceback (most recent call last):
+[Thu Nov 02 10:41:04.788640 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 10:41:04.788646 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     response = self.full_dispatch_request()
+[Thu Nov 02 10:41:04.788652 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 10:41:04.788658 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.handle_user_exception(e)
+[Thu Nov 02 10:41:04.788664 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 10:41:04.788670 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 10:41:04.788675 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 10:41:04.788681 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     raise value
+[Thu Nov 02 10:41:04.788687 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 10:41:04.788693 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.dispatch_request()
+[Thu Nov 02 10:41:04.788698 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 10:41:04.788704 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 10:41:04.788710 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Server/seismic_server.py", line 38, in handle_registration
+[Thu Nov 02 10:41:04.788716 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     user.hash_password(password)
+[Thu Nov 02 10:41:04.788722 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Database/models.py", line 39, in hash_password
+[Thu Nov 02 10:41:04.788728 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     self.secret = base64.b64encode(password)
+[Thu Nov 02 10:41:04.788733 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+[Thu Nov 02 10:41:04.788739 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     encoded = binascii.b2a_base64(s)[:-1]
+[Thu Nov 02 10:41:04.788746 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] TypeError: a bytes-like object is required, not 'str'
+[Thu Nov 02 10:41:04.788774 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] 
+[Thu Nov 02 10:45:50.775234 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] [2017-11-02 10:45:50,774] ERROR in app: Exception on /seismic/registration_form [POST]
+[Thu Nov 02 10:45:50.775270 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] Traceback (most recent call last):
+[Thu Nov 02 10:45:50.775278 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 10:45:50.775285 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     response = self.full_dispatch_request()
+[Thu Nov 02 10:45:50.775292 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 10:45:50.775298 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.handle_user_exception(e)
+[Thu Nov 02 10:45:50.775305 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 10:45:50.775319 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 10:45:50.775326 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 10:45:50.775332 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     raise value
+[Thu Nov 02 10:45:50.775338 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 10:45:50.775344 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.dispatch_request()
+[Thu Nov 02 10:45:50.775350 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 10:45:50.775356 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 10:45:50.775362 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Server/seismic_server.py", line 38, in handle_registration
+[Thu Nov 02 10:45:50.775368 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     user.hash_password(password)
+[Thu Nov 02 10:45:50.775374 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Database/models.py", line 39, in hash_password
+[Thu Nov 02 10:45:50.775380 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     self.secret = base64.b64encode(password)
+[Thu Nov 02 10:45:50.775385 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+[Thu Nov 02 10:45:50.775391 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     encoded = binascii.b2a_base64(s)[:-1]
+[Thu Nov 02 10:45:50.775399 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] TypeError: a bytes-like object is required, not 'str'
+[Thu Nov 02 10:45:50.775426 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] 
+[Thu Nov 02 10:45:57.918621 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] [2017-11-02 10:45:57,918] ERROR in app: Exception on /seismic/registration_form [POST]
+[Thu Nov 02 10:45:57.918654 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] Traceback (most recent call last):
+[Thu Nov 02 10:45:57.918661 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 10:45:57.918668 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     response = self.full_dispatch_request()
+[Thu Nov 02 10:45:57.918674 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 10:45:57.918680 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.handle_user_exception(e)
+[Thu Nov 02 10:45:57.918685 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 10:45:57.918692 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 10:45:57.918697 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 10:45:57.918703 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     raise value
+[Thu Nov 02 10:45:57.918709 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 10:45:57.918715 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.dispatch_request()
+[Thu Nov 02 10:45:57.918721 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 10:45:57.918739 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 10:45:57.918746 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Server/seismic_server.py", line 38, in handle_registration
+[Thu Nov 02 10:45:57.918752 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     user.hash_password(password)
+[Thu Nov 02 10:45:57.918758 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Database/models.py", line 39, in hash_password
+[Thu Nov 02 10:45:57.918764 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     self.secret = base64.b64encode(password)
+[Thu Nov 02 10:45:57.918770 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+[Thu Nov 02 10:45:57.918775 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     encoded = binascii.b2a_base64(s)[:-1]
+[Thu Nov 02 10:45:57.918783 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] TypeError: a bytes-like object is required, not 'str'
+[Thu Nov 02 10:45:57.918811 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] 
+[Thu Nov 02 10:47:32.277238 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] [2017-11-02 10:47:32,276] ERROR in app: Exception on /seismic/registration_form [POST]
+[Thu Nov 02 10:47:32.277274 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] Traceback (most recent call last):
+[Thu Nov 02 10:47:32.277282 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 10:47:32.277289 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     response = self.full_dispatch_request()
+[Thu Nov 02 10:47:32.277296 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 10:47:32.277303 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.handle_user_exception(e)
+[Thu Nov 02 10:47:32.277309 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 10:47:32.277316 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 10:47:32.277322 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 10:47:32.277329 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     raise value
+[Thu Nov 02 10:47:32.277336 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 10:47:32.277342 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.dispatch_request()
+[Thu Nov 02 10:47:32.277348 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 10:47:32.277355 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 10:47:32.277362 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Server/seismic_server.py", line 38, in handle_registration
+[Thu Nov 02 10:47:32.277368 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     user.hash_password(password)
+[Thu Nov 02 10:47:32.277375 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Database/models.py", line 39, in hash_password
+[Thu Nov 02 10:47:32.277382 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     self.secret = base64.b64encode(password)
+[Thu Nov 02 10:47:32.277388 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+[Thu Nov 02 10:47:32.277394 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     encoded = binascii.b2a_base64(s)[:-1]
+[Thu Nov 02 10:47:32.277413 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] TypeError: a bytes-like object is required, not 'str'
+[Thu Nov 02 10:47:32.277441 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] 
+[Thu Nov 02 10:47:39.002903 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] [2017-11-02 10:47:39,002] ERROR in app: Exception on /seismic/registration_form [POST]
+[Thu Nov 02 10:47:39.002936 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] Traceback (most recent call last):
+[Thu Nov 02 10:47:39.002943 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 10:47:39.002949 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     response = self.full_dispatch_request()
+[Thu Nov 02 10:47:39.002955 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 10:47:39.002962 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.handle_user_exception(e)
+[Thu Nov 02 10:47:39.002967 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 10:47:39.002974 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 10:47:39.002980 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 10:47:39.002986 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     raise value
+[Thu Nov 02 10:47:39.002991 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 10:47:39.002997 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.dispatch_request()
+[Thu Nov 02 10:47:39.003003 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 10:47:39.003009 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 10:47:39.003015 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Server/seismic_server.py", line 38, in handle_registration
+[Thu Nov 02 10:47:39.003021 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     user.hash_password(password)
+[Thu Nov 02 10:47:39.003027 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Database/models.py", line 39, in hash_password
+[Thu Nov 02 10:47:39.003033 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     self.secret = base64.b64encode(password)
+[Thu Nov 02 10:47:39.003039 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+[Thu Nov 02 10:47:39.003044 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     encoded = binascii.b2a_base64(s)[:-1]
+[Thu Nov 02 10:47:39.003052 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] TypeError: a bytes-like object is required, not 'str'
+[Thu Nov 02 10:47:39.003079 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] 
+[Thu Nov 02 10:53:42.889878 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] [2017-11-02 10:53:42,889] ERROR in app: Exception on /seismic/registration_form [POST]
+[Thu Nov 02 10:53:42.889914 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] Traceback (most recent call last):
+[Thu Nov 02 10:53:42.889922 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 10:53:42.889929 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     response = self.full_dispatch_request()
+[Thu Nov 02 10:53:42.889947 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 10:53:42.889954 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.handle_user_exception(e)
+[Thu Nov 02 10:53:42.889960 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 10:53:42.889966 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 10:53:42.889972 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 10:53:42.889978 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     raise value
+[Thu Nov 02 10:53:42.889984 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 10:53:42.889990 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.dispatch_request()
+[Thu Nov 02 10:53:42.889995 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 10:53:42.890001 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 10:53:42.890007 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Server/seismic_server.py", line 38, in handle_registration
+[Thu Nov 02 10:53:42.890013 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     user.hash_password(password)
+[Thu Nov 02 10:53:42.890019 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Database/models.py", line 39, in hash_password
+[Thu Nov 02 10:53:42.890025 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     self.secret = base64.b64encode(password)
+[Thu Nov 02 10:53:42.890031 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+[Thu Nov 02 10:53:42.890037 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     encoded = binascii.b2a_base64(s)[:-1]
+[Thu Nov 02 10:53:42.890044 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] TypeError: a bytes-like object is required, not 'str'
+[Thu Nov 02 10:53:42.890071 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] 
+[Thu Nov 02 10:56:05.582470 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] [2017-11-02 10:56:05,581] ERROR in app: Exception on /seismic/registration_form [POST]
+[Thu Nov 02 10:56:05.582507 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] Traceback (most recent call last):
+[Thu Nov 02 10:56:05.582515 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 10:56:05.582522 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     response = self.full_dispatch_request()
+[Thu Nov 02 10:56:05.582529 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 10:56:05.582536 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.handle_user_exception(e)
+[Thu Nov 02 10:56:05.582542 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 10:56:05.582549 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 10:56:05.582556 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 10:56:05.582562 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     raise value
+[Thu Nov 02 10:56:05.582581 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 10:56:05.582588 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.dispatch_request()
+[Thu Nov 02 10:56:05.582594 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 10:56:05.582600 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 10:56:05.582606 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Server/seismic_server.py", line 38, in handle_registration
+[Thu Nov 02 10:56:05.582612 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     user.hash_password(password)
+[Thu Nov 02 10:56:05.582618 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Database/models.py", line 39, in hash_password
+[Thu Nov 02 10:56:05.582624 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     self.secret = base64.b64encode(password)
+[Thu Nov 02 10:56:05.582630 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+[Thu Nov 02 10:56:05.582636 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     encoded = binascii.b2a_base64(s)[:-1]
+[Thu Nov 02 10:56:05.582643 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] TypeError: a bytes-like object is required, not 'str'
+[Thu Nov 02 10:56:05.582671 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] 
+[Thu Nov 02 10:57:07.981666 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] [2017-11-02 10:57:07,981] ERROR in app: Exception on /seismic/registration_form [POST]
+[Thu Nov 02 10:57:07.981702 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] Traceback (most recent call last):
+[Thu Nov 02 10:57:07.981710 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 10:57:07.981717 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     response = self.full_dispatch_request()
+[Thu Nov 02 10:57:07.981724 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 10:57:07.981730 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.handle_user_exception(e)
+[Thu Nov 02 10:57:07.981737 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 10:57:07.981743 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 10:57:07.981749 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 10:57:07.981756 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     raise value
+[Thu Nov 02 10:57:07.981762 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 10:57:07.981769 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     rv = self.dispatch_request()
+[Thu Nov 02 10:57:07.981775 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 10:57:07.981782 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 10:57:07.981788 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Server/seismic_server.py", line 38, in handle_registration
+[Thu Nov 02 10:57:07.981795 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     user.hash_password(password)
+[Thu Nov 02 10:57:07.981813 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/home/tesi/Seismic/Database/models.py", line 39, in hash_password
+[Thu Nov 02 10:57:07.981820 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     self.secret = base64.b64encode(password)
+[Thu Nov 02 10:57:07.981825 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]   File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+[Thu Nov 02 10:57:07.981831 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271]     encoded = binascii.b2a_base64(s)[:-1]
+[Thu Nov 02 10:57:07.981838 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] TypeError: a bytes-like object is required, not 'str'
+[Thu Nov 02 10:57:07.981866 2017] [wsgi:error] [pid 27372] [remote 217.58.0.14:25271] 
+[Thu Nov 02 14:01:40.718625 2017] [wsgi:error] [pid 29298] {'reportState': {'buildingState': {'pillarLayoutState': {'area': 8.333333333333334, 'distX': 5.0, 'pillarX': 3, 'pillarY': 2, 'pillarCount': 6, 'distY': 5.0}, 'pillarState': {'area_ferri': 508.93800988154646, 'classe_acciaio': 'B450A', 'epsyu': 67.5, 'eps2': 2.0, 'pillar_domain': {'limitStatePoints': [{'fh': 3.381249, 'm': 0.8453121589263899, 'n': 59.041666666666664, 'ty': 0.563541, 'sd': 0.012408, 'color': 2131099801, 'label': 'SLO'}, {'fh': 4.195291, 'm': 1.0488226724555714, 'n': 59.041666666666664, 'ty': 0.699215, 'sd': 0.015396, 'color': 2131099800, 'label': 'SLD'}, {'fh': 8.62857, 'm': 2.1571424137800927, 'n': 59.041666666666664, 'ty': 1.438095, 'sd': 0.031664, 'color': 2131099802, 'label': 'SLV'}, {'fh': 10.434744, 'm': 2.6086860289797182, 'n': 59.041666666666664, 'ty': 1.739124, 'sd': 0.038293, 'color': 2131099799, 'label': 'SLC'}, {'fh': 0.0, 'm': 56.24205940235962, 'n': 59.041666666666664, 'ty': 0.0, 'sd': 0.0, 'color': 2131099752, 'label': 'MRD'}], 'domainPoints': [{'m': 0.0, 'n': -398.2993120812103}, {'m': 47.79591744974524, 'n': 0.0}, {'m': 56.88029244974524, 'n': 63.75}, {'m': 65.00841744974524, 'n': 127.5}, {'m': 72.18029244974524, 'n': 191.25}, {'m': 78.39591744974524, 'n': 255.0}, {'m': 83.65529244974523, 'n': 318.75}, {'m': 87.95841744974524, 'n': 382.5}, {'m': 91.30529244974524, 'n': 446.25}, {'m': 93.69591744974524, 'n': 510.0}, {'m': 95.13029244974524, 'n': 573.75}, {'m': 95.60841744974523, 'n': 637.5}, {'m': 95.13029244974524, 'n': 701.25}, {'m': 93.69591744974524, 'n': 765.0}, {'m': 91.30529244974524, 'n': 828.75}, {'m': 87.95841744974524, 'n': 892.5}, {'m': 83.65529244974523, 'n': 956.25}, {'m': 78.39591744974524, 'n': 1020.0}, {'m': 72.18029244974524, 'n': 1083.75}, {'m': 65.00841744974524, 'n': 1147.5}, {'m': 56.88029244974524, 'n': 1211.25}, {'m': 47.79591744974524, 'n': 1275.0}, {'m': 0.0, 'n': 1673.2993120812102}]}, 'epsy': 10.0, 'epsu': 3.5, 'num_ferri': 2, 'c': 30.0, 'diametro_ferri': 18.0, 'classe_calcestruzzo': 'C25/30', 'conoscenza_acciaio': 1.0, 'hy': 300.0, 'fck': 25.0, 'fyd': 391.304347826087, 'fyk': 450.0, 'bx': 300.0, 'rck': 30.0, 'fcd': 14.166666666666666, 'E': 210000.0, 'fcm': 33.0, 'ecm': 31475.806210019346, 'conoscenza_calcestruzzo': 1.0}, 'structuralState': {'q_solaio': 2.5, 'q_copertura': 5.449999999999999, 'qk_copertura': 2.0, 'peso_totale': 272.49999999999994, 'peso_copertura_string': '12+4', 'altezza_fondazioni': 2.0, 'tipo_copertura': 'Latero-cemento', 'tipo_solaio': 'Latero-cemento', 'g2_solaio': 0.0, 'tipo_fondazioni': 'Platea', 'peso_copertura': 2.5, 'qk_solaio': 0.0, 'g2_copertura': 2.35, 'peso_solaio_string': '12+4', 'peso_solaio': 2.5}, 'buildingGeneralState': {'anno_costruzione': '< 1919', 'totale_unita': 'Totalmente utilizzato', 'tipologia_strutturale': 'Muratura', 'stato_edificio': 'Finito'}, 'takeoverState': {'area': 2.5000000000000004, 'plant_points': [{'y': 0.0, 'x': 0.0}, {'y': 0.0, 'x': 10.0}, {'y': 5.0, 'x': 10.0}, {'y': 5.0, 'x': 0.0}, {'y': 0.0, 'x': 0.0}], 'gravity_center': {'y': 5.000000000000001, 'x': 30.0}, 't1': 50.0, 'altezza_piani_superiori': 0.0, 'perimetro': 0.1709630292716083, 'altezza_totale': 3.0, 'numero_piani': 1, 'altezza_piano_terra': 3.0, 'lambda': 1.0}}, 'sismicState': {'projectSpectrumState': {'categoria_suolo': 'A', 'classe_duttilita': True, 'spectrums': [{'f0': 2.57193, 'ss': 1.0, 'tcStar': 0.18, 'tb': 0.06, 's': 1.0, 'tc': 0.18, 'st': 1.0, 'pointList': [{'y': 0.023881, 'x': 0.0}, {'y': 0.012408, 'x': 0.06}, {'y': 0.012408, 'x': 0.18}, {'y': 0.012408, 'x': 0.18}, {'y': 0.008881, 'x': 0.251487}, {'y': 0.006915, 'x': 0.322974}, {'y': 0.005662, 'x': 0.394461}, {'y': 0.004793, 'x': 0.465948}, {'y': 0.004156, 'x': 0.537434}, {'y': 0.003668, 'x': 0.608921}, {'y': 0.003283, 'x': 0.680408}, {'y': 0.00297, 'x': 0.751895}, {'y': 0.002713, 'x': 0.823382}, {'y': 0.002496, 'x': 0.894869}, {'y': 0.002311, 'x': 0.966356}, {'y': 0.002152, 'x': 1.037843}, {'y': 0.002013, 'x': 1.109329}, {'y': 0.001891, 'x': 1.180816}, {'y': 0.001784, 'x': 1.252303}, {'y': 0.001687, 'x': 1.32379}, {'y': 0.001601, 'x': 1.395277}, {'y': 0.001523, 'x': 1.466764}, {'y': 0.001452, 'x': 1.538251}, {'y': 0.001387, 'x': 1.609738}, {'y': 0.001202, 'x': 1.729251}, {'y': 0.001052, 'x': 1.848764}, {'y': 0.000928, 'x': 1.968277}, {'y': 0.000825, 'x': 2.08779}, {'y': 0.000738, 'x': 2.207303}, {'y': 0.000664, 'x': 2.326816}, {'y': 0.000601, 'x': 2.446329}, {'y': 0.000546, 'x': 2.565842}, {'y': 0.000499, 'x': 2.685356}, {'y': 0.000457, 'x': 2.804869}, {'y': 0.00042, 'x': 2.924382}, {'y': 0.000388, 'x': 3.043895}, {'y': 0.000359, 'x': 3.163408}, {'y': 0.000334, 'x': 3.282921}, {'y': 0.000311, 'x': 3.402434}, {'y': 0.00029, 'x': 3.521947}, {'y': 0.000271, 'x': 3.641461}, {'y': 0.000254, 'x': 3.760974}, {'y': 0.000239, 'x': 3.880487}], 'q': 4.95, 'color': 2131099801, 'cc': 1.0, 'year': 30, 'ag': 0.023881, 'name': 'SLO', 'td': 1.609738, 'ni': 0.20202}, {'f0': 2.583833, 'ss': 1.0, 'tcStar': 0.194265, 'tb': 0.064755, 's': 1.0, 'tc': 0.194265, 'st': 1.0, 'pointList': [{'y': 0.029494, 'x': 0.0}, {'y': 0.015396, 'x': 0.064755}, {'y': 0.015396, 'x': 0.194265}, {'y': 0.015396, 'x': 0.194265}, {'y': 0.01128, 'x': 0.265153}, {'y': 0.0089, 'x': 0.336041}, {'y': 0.00735, 'x': 0.406929}, {'y': 0.006259, 'x': 0.477817}, {'y': 0.005451, 'x': 0.548705}, {'y': 0.004827, 'x': 0.619593}, {'y': 0.004331, 'x': 0.690481}, {'y': 0.003928, 'x': 0.761369}, {'y': 0.003594, 'x': 0.832258}, {'y': 0.003312, 'x': 0.903146}, {'y': 0.003071, 'x': 0.974034}, {'y': 0.002862, 'x': 1.044922}, {'y': 0.00268, 'x': 1.11581}, {'y': 0.00252, 'x': 1.186698}, {'y': 0.002378, 'x': 1.257586}, {'y': 0.002251, 'x': 1.328474}, {'y': 0.002137, 'x': 1.399362}, {'y': 0.002034, 'x': 1.47025}, {'y': 0.001941, 'x': 1.541138}, {'y': 0.001855, 'x': 1.612026}, {'y': 0.001855, 'x': 1.612026}, {'y': 0.001608, 'x': 1.731425}, {'y': 0.001407, 'x': 1.850824}, {'y': 0.001242, 'x': 1.970222}, {'y': 0.001104, 'x': 2.089621}, {'y': 0.000988, 'x': 2.20902}, {'y': 0.000889, 'x': 2.328418}, {'y': 0.000805, 'x': 2.447817}, {'y': 0.000732, 'x': 2.567216}, {'y': 0.000668, 'x': 2.686614}, {'y': 0.000612, 'x': 2.806013}, {'y': 0.000563, 'x': 2.925412}, {'y': 0.00052, 'x': 3.044811}, {'y': 0.000482, 'x': 3.164209}, {'y': 0.000447, 'x': 3.283608}, {'y': 0.000416, 'x': 3.403007}, {'y': 0.000389, 'x': 3.522405}, {'y': 0.000364, 'x': 3.641804}, {'y': 0.000341, 'x': 3.761203}, {'y': 0.00032, 'x': 3.880601}, {'y': 0.000301, 'x': 4.0}], 'q': 4.95, 'color': 2131099800, 'cc': 1.0, 'year': 50, 'ag': 0.029494, 'name': 'SLD', 'td': 1.612026, 'ni': 0.20202}, {'f0': 2.757667, 'ss': 1.0, 'tcStar': 0.27, 'tb': 0.09, 's': 1.0, 'tc': 0.27, 'st': 1.0, 'pointList': [{'y': 0.056838, 'x': 0.0}, {'y': 0.031664, 'x': 0.09}, {'y': 0.031664, 'x': 0.27}, {'y': 0.031664, 'x': 0.27}, {'y': 0.02532, 'x': 0.337659}, {'y': 0.021093, 'x': 0.405318}, {'y': 0.018076, 'x': 0.472976}, {'y': 0.015814, 'x': 0.540635}, {'y': 0.014055, 'x': 0.608294}, {'y': 0.012648, 'x': 0.675953}, {'y': 0.011497, 'x': 0.743611}, {'y': 0.010538, 'x': 0.81127}, {'y': 0.009727, 'x': 0.878929}, {'y': 0.009032, 'x': 0.946588}, {'y': 0.008429, 'x': 1.014246}, {'y': 0.007902, 'x': 1.081905}, {'y': 0.007437, 'x': 1.149564}, {'y': 0.007024, 'x': 1.217223}, {'y': 0.006654, 'x': 1.284881}, {'y': 0.006321, 'x': 1.35254}, {'y': 0.00602, 'x': 1.420199}, {'y': 0.005746, 'x': 1.487858}, {'y': 0.005496, 'x': 1.555517}, {'y': 0.005267, 'x': 1.623175}, {'y': 0.005267, 'x': 1.623175}, {'y': 0.004573, 'x': 1.742017}, {'y': 0.004008, 'x': 1.860858}, {'y': 0.003541, 'x': 1.979699}, {'y': 0.003151, 'x': 2.09854}, {'y': 0.002822, 'x': 2.217381}, {'y': 0.002543, 'x': 2.336223}, {'y': 0.002302, 'x': 2.455064}, {'y': 0.002095, 'x': 2.573905}, {'y': 0.001914, 'x': 2.692746}, {'y': 0.001755, 'x': 2.811588}, {'y': 0.001616, 'x': 2.930429}, {'y': 0.001492, 'x': 3.04927}, {'y': 0.001383, 'x': 3.168111}, {'y': 0.001284, 'x': 3.286952}, {'y': 0.001196, 'x': 3.405794}, {'y': 0.001117, 'x': 3.524635}, {'y': 0.001045, 'x': 3.643476}, {'y': 0.00098, 'x': 3.762317}, {'y': 0.000921, 'x': 3.881159}, {'y': 0.000867, 'x': 4.0}], 'q': 4.95, 'color': 2131099802, 'cc': 1.0, 'year': 475, 'ag': 0.056838, 'name': 'SLV', 't
+[Thu Nov 02 14:04:05.041305 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807] [2017-11-02 14:04:05,025] ERROR in app: Exception on /seismic/login_form [POST]
+[Thu Nov 02 14:04:05.041331 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807] Traceback (most recent call last):
+[Thu Nov 02 14:04:05.041337 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 14:04:05.041342 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     response = self.full_dispatch_request()
+[Thu Nov 02 14:04:05.041347 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 14:04:05.041353 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     rv = self.handle_user_exception(e)
+[Thu Nov 02 14:04:05.041358 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 14:04:05.041363 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 14:04:05.041368 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 14:04:05.041374 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     raise value
+[Thu Nov 02 14:04:05.041379 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 14:04:05.041384 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     rv = self.dispatch_request()
+[Thu Nov 02 14:04:05.041389 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 14:04:05.041394 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 14:04:05.041399 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/home/tesi/Seismic/Server/seismic_server.py", line 53, in handle_login
+[Thu Nov 02 14:04:05.041405 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     response = jsonify(user.toDict())
+[Thu Nov 02 14:04:05.041410 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 263, in jsonify
+[Thu Nov 02 14:04:05.041415 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     (dumps(data, indent=indent, separators=separators), '\\n'),
+[Thu Nov 02 14:04:05.041420 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 123, in dumps
+[Thu Nov 02 14:04:05.041425 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     rv = _json.dumps(obj, **kwargs)
+[Thu Nov 02 14:04:05.041430 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+[Thu Nov 02 14:04:05.041437 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     **kw).encode(obj)
+[Thu Nov 02 14:04:05.041449 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/lib/python3.5/json/encoder.py", line 200, in encode
+[Thu Nov 02 14:04:05.041455 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     chunks = list(chunks)
+[Thu Nov 02 14:04:05.041460 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/lib/python3.5/json/encoder.py", line 429, in _iterencode
+[Thu Nov 02 14:04:05.041464 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     yield from _iterencode_dict(o, _current_indent_level)
+[Thu Nov 02 14:04:05.041469 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/lib/python3.5/json/encoder.py", line 403, in _iterencode_dict
+[Thu Nov 02 14:04:05.041474 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     yield from chunks
+[Thu Nov 02 14:04:05.041478 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/lib/python3.5/json/encoder.py", line 436, in _iterencode
+[Thu Nov 02 14:04:05.041483 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     o = _default(o)
+[Thu Nov 02 14:04:05.041488 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 80, in default
+[Thu Nov 02 14:04:05.041493 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     return _json.JSONEncoder.default(self, o)
+[Thu Nov 02 14:04:05.041497 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+[Thu Nov 02 14:04:05.041502 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807]     raise TypeError(repr(o) + " is not JSON serializable")
+[Thu Nov 02 14:04:05.041508 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807] TypeError: b'cXdlcnR5MQ==' is not JSON serializable
+[Thu Nov 02 14:04:05.041530 2017] [wsgi:error] [pid 29298] [remote 87.1.70.92:26807] 
+[Thu Nov 02 14:08:47.037228 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101] [2017-11-02 14:08:47,031] ERROR in app: Exception on /seismic/registration_form [POST]
+[Thu Nov 02 14:08:47.037257 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101] Traceback (most recent call last):
+[Thu Nov 02 14:08:47.037263 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 1182, in _execute_context
+[Thu Nov 02 14:08:47.037269 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     context)
+[Thu Nov 02 14:08:47.037274 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/default.py", line 470, in do_execute
+[Thu Nov 02 14:08:47.037279 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     cursor.execute(statement, parameters)
+[Thu Nov 02 14:08:47.037284 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101] sqlite3.OperationalError: no such table: users
+[Thu Nov 02 14:08:47.037290 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101] 
+[Thu Nov 02 14:08:47.037294 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101] The above exception was the direct cause of the following exception:
+[Thu Nov 02 14:08:47.037299 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101] 
+[Thu Nov 02 14:08:47.037304 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101] Traceback (most recent call last):
+[Thu Nov 02 14:08:47.037309 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 14:08:47.037314 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     response = self.full_dispatch_request()
+[Thu Nov 02 14:08:47.037319 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 14:08:47.037324 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     rv = self.handle_user_exception(e)
+[Thu Nov 02 14:08:47.037330 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 14:08:47.037345 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 14:08:47.037350 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 14:08:47.037355 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     raise value
+[Thu Nov 02 14:08:47.037360 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 14:08:47.037364 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     rv = self.dispatch_request()
+[Thu Nov 02 14:08:47.037369 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 14:08:47.037373 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 14:08:47.037378 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/home/tesi/Seismic/Server/seismic_server.py", line 34, in handle_registration
+[Thu Nov 02 14:08:47.037383 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     if User.query.filter_by(email=email).first() is not None:
+[Thu Nov 02 14:08:47.037388 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/orm/query.py", line 2755, in first
+[Thu Nov 02 14:08:47.037392 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     ret = list(self[0:1])
+[Thu Nov 02 14:08:47.037397 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+[Thu Nov 02 14:08:47.037402 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     return list(res)
+[Thu Nov 02 14:08:47.037406 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+[Thu Nov 02 14:08:47.037411 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     return self._execute_and_instances(context)
+[Thu Nov 02 14:08:47.037416 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/orm/query.py", line 2878, in _execute_and_instances
+[Thu Nov 02 14:08:47.037421 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     result = conn.execute(querycontext.statement, self._params)
+[Thu Nov 02 14:08:47.037425 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 945, in execute
+[Thu Nov 02 14:08:47.037430 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     return meth(self, multiparams, params)
+[Thu Nov 02 14:08:47.037435 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/sql/elements.py", line 263, in _execute_on_connection
+[Thu Nov 02 14:08:47.037439 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     return connection._execute_clauseelement(self, multiparams, params)
+[Thu Nov 02 14:08:47.037444 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 1053, in _execute_clauseelement
+[Thu Nov 02 14:08:47.037449 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     compiled_sql, distilled_params
+[Thu Nov 02 14:08:47.037453 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 1189, in _execute_context
+[Thu Nov 02 14:08:47.037458 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     context)
+[Thu Nov 02 14:08:47.037462 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 1402, in _handle_dbapi_exception
+[Thu Nov 02 14:08:47.037472 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     exc_info
+[Thu Nov 02 14:08:47.037477 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+[Thu Nov 02 14:08:47.037482 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     reraise(type(exception), exception, tb=exc_tb, cause=cause)
+[Thu Nov 02 14:08:47.037486 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/util/compat.py", line 186, in reraise
+[Thu Nov 02 14:08:47.037491 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     raise value.with_traceback(tb)
+[Thu Nov 02 14:08:47.037496 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 1182, in _execute_context
+[Thu Nov 02 14:08:47.037500 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     context)
+[Thu Nov 02 14:08:47.037505 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/default.py", line 470, in do_execute
+[Thu Nov 02 14:08:47.037509 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101]     cursor.execute(statement, parameters)
+[Thu Nov 02 14:08:47.037516 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101] sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: users [SQL: 'SELECT users.id AS users_id, users.name AS users_name, users.email AS users_email, users.secret AS users_secret, users.address AS users_address, users.phone AS users_phone, users.qualification AS users_qualification, users.registration AS users_registration, users.registration_date AS users_registration_date, users.confirmed AS users_confirmed \\nFROM users \\nWHERE users.email = ?\\n LIMIT ? OFFSET ?'] [parameters: ('test@test.com', 1, 0)]
+[Thu Nov 02 14:08:47.037539 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:18101] 
+[Thu Nov 02 14:08:54.246993 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759] [2017-11-02 14:08:54,245] ERROR in app: Exception on /seismic/registration_form [POST]
+[Thu Nov 02 14:08:54.247027 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759] Traceback (most recent call last):
+[Thu Nov 02 14:08:54.247034 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 1182, in _execute_context
+[Thu Nov 02 14:08:54.247041 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     context)
+[Thu Nov 02 14:08:54.247047 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/default.py", line 470, in do_execute
+[Thu Nov 02 14:08:54.247053 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     cursor.execute(statement, parameters)
+[Thu Nov 02 14:08:54.247060 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759] sqlite3.OperationalError: no such table: users
+[Thu Nov 02 14:08:54.247066 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759] 
+[Thu Nov 02 14:08:54.247071 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759] The above exception was the direct cause of the following exception:
+[Thu Nov 02 14:08:54.247078 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759] 
+[Thu Nov 02 14:08:54.247083 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759] Traceback (most recent call last):
+[Thu Nov 02 14:08:54.247089 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 14:08:54.247096 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     response = self.full_dispatch_request()
+[Thu Nov 02 14:08:54.247102 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 14:08:54.247109 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     rv = self.handle_user_exception(e)
+[Thu Nov 02 14:08:54.247126 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 14:08:54.247133 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 14:08:54.247140 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 14:08:54.247146 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     raise value
+[Thu Nov 02 14:08:54.247152 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 14:08:54.247158 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     rv = self.dispatch_request()
+[Thu Nov 02 14:08:54.247165 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 14:08:54.247171 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 14:08:54.247178 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/home/tesi/Seismic/Server/seismic_server.py", line 34, in handle_registration
+[Thu Nov 02 14:08:54.247184 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     if User.query.filter_by(email=email).first() is not None:
+[Thu Nov 02 14:08:54.247191 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/orm/query.py", line 2755, in first
+[Thu Nov 02 14:08:54.247197 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     ret = list(self[0:1])
+[Thu Nov 02 14:08:54.247203 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/orm/query.py", line 2547, in __getitem__
+[Thu Nov 02 14:08:54.247210 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     return list(res)
+[Thu Nov 02 14:08:54.247216 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/orm/query.py", line 2855, in __iter__
+[Thu Nov 02 14:08:54.247222 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     return self._execute_and_instances(context)
+[Thu Nov 02 14:08:54.247229 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/orm/query.py", line 2878, in _execute_and_instances
+[Thu Nov 02 14:08:54.247235 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     result = conn.execute(querycontext.statement, self._params)
+[Thu Nov 02 14:08:54.247242 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 945, in execute
+[Thu Nov 02 14:08:54.247248 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     return meth(self, multiparams, params)
+[Thu Nov 02 14:08:54.247254 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/sql/elements.py", line 263, in _execute_on_connection
+[Thu Nov 02 14:08:54.247261 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     return connection._execute_clauseelement(self, multiparams, params)
+[Thu Nov 02 14:08:54.247267 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 1053, in _execute_clauseelement
+[Thu Nov 02 14:08:54.247274 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     compiled_sql, distilled_params
+[Thu Nov 02 14:08:54.247280 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 1189, in _execute_context
+[Thu Nov 02 14:08:54.247286 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     context)
+[Thu Nov 02 14:08:54.247292 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 1402, in _handle_dbapi_exception
+[Thu Nov 02 14:08:54.247304 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     exc_info
+[Thu Nov 02 14:08:54.247311 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+[Thu Nov 02 14:08:54.247318 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     reraise(type(exception), exception, tb=exc_tb, cause=cause)
+[Thu Nov 02 14:08:54.247324 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/util/compat.py", line 186, in reraise
+[Thu Nov 02 14:08:54.247330 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     raise value.with_traceback(tb)
+[Thu Nov 02 14:08:54.247336 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/base.py", line 1182, in _execute_context
+[Thu Nov 02 14:08:54.247343 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     context)
+[Thu Nov 02 14:08:54.247349 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]   File "/usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/default.py", line 470, in do_execute
+[Thu Nov 02 14:08:54.247355 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759]     cursor.execute(statement, parameters)
+[Thu Nov 02 14:08:54.247364 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759] sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: users [SQL: 'SELECT users.id AS users_id, users.name AS users_name, users.email AS users_email, users.secret AS users_secret, users.address AS users_address, users.phone AS users_phone, users.qualification AS users_qualification, users.registration AS users_registration, users.registration_date AS users_registration_date, users.confirmed AS users_confirmed \\nFROM users \\nWHERE users.email = ?\\n LIMIT ? OFFSET ?'] [parameters: ('test@test.com', 1, 0)]
+[Thu Nov 02 14:08:54.247394 2017] [wsgi:error] [pid 29595] [remote 87.1.70.92:24759] 
+[Thu Nov 02 14:11:57.069281 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] [2017-11-02 14:11:57,066] ERROR in app: Exception on /seismic/login_form [POST]
+[Thu Nov 02 14:11:57.069317 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] Traceback (most recent call last):
+[Thu Nov 02 14:11:57.069323 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 14:11:57.069328 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     response = self.full_dispatch_request()
+[Thu Nov 02 14:11:57.069333 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 14:11:57.069339 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     rv = self.handle_user_exception(e)
+[Thu Nov 02 14:11:57.069343 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 14:11:57.069348 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 14:11:57.069353 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 14:11:57.069358 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     raise value
+[Thu Nov 02 14:11:57.069363 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 14:11:57.069368 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     rv = self.dispatch_request()
+[Thu Nov 02 14:11:57.069373 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 14:11:57.069388 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 14:11:57.069393 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/home/tesi/Seismic/Server/seismic_server.py", line 53, in handle_login
+[Thu Nov 02 14:11:57.069398 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     response = jsonify(user.toDict())
+[Thu Nov 02 14:11:57.069402 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 263, in jsonify
+[Thu Nov 02 14:11:57.069407 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     (dumps(data, indent=indent, separators=separators), '\\n'),
+[Thu Nov 02 14:11:57.069411 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 123, in dumps
+[Thu Nov 02 14:11:57.069416 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     rv = _json.dumps(obj, **kwargs)
+[Thu Nov 02 14:11:57.069420 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+[Thu Nov 02 14:11:57.069425 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     **kw).encode(obj)
+[Thu Nov 02 14:11:57.069429 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 200, in encode
+[Thu Nov 02 14:11:57.069433 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     chunks = list(chunks)
+[Thu Nov 02 14:11:57.069438 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 429, in _iterencode
+[Thu Nov 02 14:11:57.069442 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     yield from _iterencode_dict(o, _current_indent_level)
+[Thu Nov 02 14:11:57.069447 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 403, in _iterencode_dict
+[Thu Nov 02 14:11:57.069451 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     yield from chunks
+[Thu Nov 02 14:11:57.069455 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 436, in _iterencode
+[Thu Nov 02 14:11:57.069460 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     o = _default(o)
+[Thu Nov 02 14:11:57.069464 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 80, in default
+[Thu Nov 02 14:11:57.069469 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     return _json.JSONEncoder.default(self, o)
+[Thu Nov 02 14:11:57.069473 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+[Thu Nov 02 14:11:57.069478 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     raise TypeError(repr(o) + " is not JSON serializable")
+[Thu Nov 02 14:11:57.069483 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] TypeError: b'cXdlcnR5' is not JSON serializable
+[Thu Nov 02 14:11:57.069504 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] 
+[Thu Nov 02 14:13:00.914715 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] [2017-11-02 14:13:00,914] ERROR in app: Exception on /seismic/login_form [POST]
+[Thu Nov 02 14:13:00.914750 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] Traceback (most recent call last):
+[Thu Nov 02 14:13:00.914758 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 14:13:00.914765 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     response = self.full_dispatch_request()
+[Thu Nov 02 14:13:00.914771 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 14:13:00.914778 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     rv = self.handle_user_exception(e)
+[Thu Nov 02 14:13:00.914796 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 14:13:00.914803 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 14:13:00.914809 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 14:13:00.914815 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     raise value
+[Thu Nov 02 14:13:00.914821 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 14:13:00.914827 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     rv = self.dispatch_request()
+[Thu Nov 02 14:13:00.914833 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 14:13:00.914839 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 14:13:00.914845 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/home/tesi/Seismic/Server/seismic_server.py", line 53, in handle_login
+[Thu Nov 02 14:13:00.914851 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     response = jsonify(user.toDict())
+[Thu Nov 02 14:13:00.914857 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 263, in jsonify
+[Thu Nov 02 14:13:00.914863 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     (dumps(data, indent=indent, separators=separators), '\\n'),
+[Thu Nov 02 14:13:00.914869 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 123, in dumps
+[Thu Nov 02 14:13:00.914875 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     rv = _json.dumps(obj, **kwargs)
+[Thu Nov 02 14:13:00.914880 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+[Thu Nov 02 14:13:00.914886 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     **kw).encode(obj)
+[Thu Nov 02 14:13:00.914892 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 200, in encode
+[Thu Nov 02 14:13:00.914898 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     chunks = list(chunks)
+[Thu Nov 02 14:13:00.914903 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 429, in _iterencode
+[Thu Nov 02 14:13:00.914909 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     yield from _iterencode_dict(o, _current_indent_level)
+[Thu Nov 02 14:13:00.914915 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 403, in _iterencode_dict
+[Thu Nov 02 14:13:00.914921 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     yield from chunks
+[Thu Nov 02 14:13:00.914927 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 436, in _iterencode
+[Thu Nov 02 14:13:00.914933 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     o = _default(o)
+[Thu Nov 02 14:13:00.914938 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 80, in default
+[Thu Nov 02 14:13:00.914944 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     return _json.JSONEncoder.default(self, o)
+[Thu Nov 02 14:13:00.914950 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+[Thu Nov 02 14:13:00.914956 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     raise TypeError(repr(o) + " is not JSON serializable")
+[Thu Nov 02 14:13:00.914969 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] TypeError: b'cXdlcnR5' is not JSON serializable
+[Thu Nov 02 14:13:00.914996 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] 
+[Thu Nov 02 14:14:17.090904 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] [2017-11-02 14:14:17,090] ERROR in app: Exception on /seismic/login_form [POST]
+[Thu Nov 02 14:14:17.090942 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] Traceback (most recent call last):
+[Thu Nov 02 14:14:17.090950 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 14:14:17.090957 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     response = self.full_dispatch_request()
+[Thu Nov 02 14:14:17.090964 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 14:14:17.090970 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     rv = self.handle_user_exception(e)
+[Thu Nov 02 14:14:17.090977 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 14:14:17.090984 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 14:14:17.090990 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 14:14:17.090997 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     raise value
+[Thu Nov 02 14:14:17.091003 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 14:14:17.091010 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     rv = self.dispatch_request()
+[Thu Nov 02 14:14:17.091016 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 14:14:17.091023 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 14:14:17.091029 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/home/tesi/Seismic/Server/seismic_server.py", line 53, in handle_login
+[Thu Nov 02 14:14:17.091036 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     response = jsonify(user.toDict())
+[Thu Nov 02 14:14:17.091042 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 263, in jsonify
+[Thu Nov 02 14:14:17.091049 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     (dumps(data, indent=indent, separators=separators), '\\n'),
+[Thu Nov 02 14:14:17.091056 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 123, in dumps
+[Thu Nov 02 14:14:17.091062 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     rv = _json.dumps(obj, **kwargs)
+[Thu Nov 02 14:14:17.091068 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+[Thu Nov 02 14:14:17.091075 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     **kw).encode(obj)
+[Thu Nov 02 14:14:17.091081 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 200, in encode
+[Thu Nov 02 14:14:17.091088 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     chunks = list(chunks)
+[Thu Nov 02 14:14:17.091094 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 429, in _iterencode
+[Thu Nov 02 14:14:17.091101 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     yield from _iterencode_dict(o, _current_indent_level)
+[Thu Nov 02 14:14:17.091107 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 403, in _iterencode_dict
+[Thu Nov 02 14:14:17.091122 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     yield from chunks
+[Thu Nov 02 14:14:17.091128 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 436, in _iterencode
+[Thu Nov 02 14:14:17.091134 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     o = _default(o)
+[Thu Nov 02 14:14:17.091140 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 80, in default
+[Thu Nov 02 14:14:17.091146 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     return _json.JSONEncoder.default(self, o)
+[Thu Nov 02 14:14:17.091152 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+[Thu Nov 02 14:14:17.091158 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039]     raise TypeError(repr(o) + " is not JSON serializable")
+[Thu Nov 02 14:14:17.091166 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] TypeError: b'cXdlcnR5' is not JSON serializable
+[Thu Nov 02 14:14:17.091194 2017] [wsgi:error] [pid 29847] [remote 87.1.70.92:26039] 
+[Thu Nov 02 14:29:28.970488 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149] [2017-11-02 14:29:28,967] ERROR in app: Exception on /seismic/login_form [POST]
+[Thu Nov 02 14:29:28.970525 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149] Traceback (most recent call last):
+[Thu Nov 02 14:29:28.970533 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 14:29:28.970540 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     response = self.full_dispatch_request()
+[Thu Nov 02 14:29:28.970546 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 14:29:28.970553 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     rv = self.handle_user_exception(e)
+[Thu Nov 02 14:29:28.970559 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 14:29:28.970566 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 14:29:28.970573 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 14:29:28.970579 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     raise value
+[Thu Nov 02 14:29:28.970586 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 14:29:28.970592 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     rv = self.dispatch_request()
+[Thu Nov 02 14:29:28.970599 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 14:29:28.970606 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 14:29:28.970612 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/home/tesi/Seismic/Server/seismic_server.py", line 53, in handle_login
+[Thu Nov 02 14:29:28.970619 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     response = jsonify(user.toDict())
+[Thu Nov 02 14:29:28.970626 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 263, in jsonify
+[Thu Nov 02 14:29:28.970632 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     (dumps(data, indent=indent, separators=separators), '\\n'),
+[Thu Nov 02 14:29:28.970639 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 123, in dumps
+[Thu Nov 02 14:29:28.970656 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     rv = _json.dumps(obj, **kwargs)
+[Thu Nov 02 14:29:28.970662 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+[Thu Nov 02 14:29:28.970668 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     **kw).encode(obj)
+[Thu Nov 02 14:29:28.970674 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/encoder.py", line 200, in encode
+[Thu Nov 02 14:29:28.970679 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     chunks = list(chunks)
+[Thu Nov 02 14:29:28.970685 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/encoder.py", line 429, in _iterencode
+[Thu Nov 02 14:29:28.970691 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     yield from _iterencode_dict(o, _current_indent_level)
+[Thu Nov 02 14:29:28.970697 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/encoder.py", line 403, in _iterencode_dict
+[Thu Nov 02 14:29:28.970702 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     yield from chunks
+[Thu Nov 02 14:29:28.970708 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/encoder.py", line 436, in _iterencode
+[Thu Nov 02 14:29:28.970714 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     o = _default(o)
+[Thu Nov 02 14:29:28.970719 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 80, in default
+[Thu Nov 02 14:29:28.970725 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     return _json.JSONEncoder.default(self, o)
+[Thu Nov 02 14:29:28.970731 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+[Thu Nov 02 14:29:28.970737 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149]     raise TypeError(repr(o) + " is not JSON serializable")
+[Thu Nov 02 14:29:28.970744 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149] TypeError: b'cXdlcnR5' is not JSON serializable
+[Thu Nov 02 14:29:28.970772 2017] [wsgi:error] [pid 30025] [remote 87.1.70.92:20149] 
+[Thu Nov 02 14:30:54.373289 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149] [2017-11-02 14:30:54,370] ERROR in app: Exception on /seismic/login_form [POST]
+[Thu Nov 02 14:30:54.373336 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149] Traceback (most recent call last):
+[Thu Nov 02 14:30:54.373344 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 14:30:54.373351 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     response = self.full_dispatch_request()
+[Thu Nov 02 14:30:54.373358 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 14:30:54.373364 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     rv = self.handle_user_exception(e)
+[Thu Nov 02 14:30:54.373371 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 14:30:54.373377 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 14:30:54.373384 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 14:30:54.373390 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     raise value
+[Thu Nov 02 14:30:54.373396 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 14:30:54.373403 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     rv = self.dispatch_request()
+[Thu Nov 02 14:30:54.373409 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 14:30:54.373424 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 14:30:54.373431 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/home/tesi/Seismic/Server/seismic_server.py", line 53, in handle_login
+[Thu Nov 02 14:30:54.373438 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     response = jsonify(user.toDict())
+[Thu Nov 02 14:30:54.373444 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 263, in jsonify
+[Thu Nov 02 14:30:54.373450 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     (dumps(data, indent=indent, separators=separators), '\\n'),
+[Thu Nov 02 14:30:54.373456 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 123, in dumps
+[Thu Nov 02 14:30:54.373462 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     rv = _json.dumps(obj, **kwargs)
+[Thu Nov 02 14:30:54.373468 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+[Thu Nov 02 14:30:54.373474 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     **kw).encode(obj)
+[Thu Nov 02 14:30:54.373480 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/encoder.py", line 200, in encode
+[Thu Nov 02 14:30:54.373486 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     chunks = list(chunks)
+[Thu Nov 02 14:30:54.373492 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/encoder.py", line 429, in _iterencode
+[Thu Nov 02 14:30:54.373499 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     yield from _iterencode_dict(o, _current_indent_level)
+[Thu Nov 02 14:30:54.373505 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/encoder.py", line 403, in _iterencode_dict
+[Thu Nov 02 14:30:54.373511 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     yield from chunks
+[Thu Nov 02 14:30:54.373517 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/encoder.py", line 436, in _iterencode
+[Thu Nov 02 14:30:54.373523 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     o = _default(o)
+[Thu Nov 02 14:30:54.373529 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 80, in default
+[Thu Nov 02 14:30:54.373535 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     return _json.JSONEncoder.default(self, o)
+[Thu Nov 02 14:30:54.373541 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+[Thu Nov 02 14:30:54.373548 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149]     raise TypeError(repr(o) + " is not JSON serializable")
+[Thu Nov 02 14:30:54.373556 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149] TypeError: b'cXdlcnR5' is not JSON serializable
+[Thu Nov 02 14:30:54.373585 2017] [wsgi:error] [pid 30164] [remote 87.1.70.92:20149] 
+[Thu Nov 02 14:33:17.540573 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197] [2017-11-02 14:33:17,537] ERROR in app: Exception on /seismic/login_form [POST]
+[Thu Nov 02 14:33:17.540615 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197] Traceback (most recent call last):
+[Thu Nov 02 14:33:17.540621 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 14:33:17.540626 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     response = self.full_dispatch_request()
+[Thu Nov 02 14:33:17.540631 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 14:33:17.540646 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     rv = self.handle_user_exception(e)
+[Thu Nov 02 14:33:17.540651 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 14:33:17.540656 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 14:33:17.540660 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 14:33:17.540665 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     raise value
+[Thu Nov 02 14:33:17.540669 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 14:33:17.540674 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     rv = self.dispatch_request()
+[Thu Nov 02 14:33:17.540678 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 14:33:17.540683 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 14:33:17.540687 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/home/tesi/Seismic/Server/seismic_server.py", line 56, in handle_login
+[Thu Nov 02 14:33:17.540692 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     response = jsonify(toSend.toDict())
+[Thu Nov 02 14:33:17.540697 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 263, in jsonify
+[Thu Nov 02 14:33:17.540701 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     (dumps(data, indent=indent, separators=separators), '\\n'),
+[Thu Nov 02 14:33:17.540706 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 123, in dumps
+[Thu Nov 02 14:33:17.540710 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     rv = _json.dumps(obj, **kwargs)
+[Thu Nov 02 14:33:17.540715 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+[Thu Nov 02 14:33:17.540719 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     **kw).encode(obj)
+[Thu Nov 02 14:33:17.540724 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/lib/python3.5/json/encoder.py", line 200, in encode
+[Thu Nov 02 14:33:17.540728 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     chunks = list(chunks)
+[Thu Nov 02 14:33:17.540732 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/lib/python3.5/json/encoder.py", line 429, in _iterencode
+[Thu Nov 02 14:33:17.540737 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     yield from _iterencode_dict(o, _current_indent_level)
+[Thu Nov 02 14:33:17.540742 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/lib/python3.5/json/encoder.py", line 403, in _iterencode_dict
+[Thu Nov 02 14:33:17.540746 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     yield from chunks
+[Thu Nov 02 14:33:17.540750 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/lib/python3.5/json/encoder.py", line 436, in _iterencode
+[Thu Nov 02 14:33:17.540755 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     o = _default(o)
+[Thu Nov 02 14:33:17.540759 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 80, in default
+[Thu Nov 02 14:33:17.540764 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     return _json.JSONEncoder.default(self, o)
+[Thu Nov 02 14:33:17.540768 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+[Thu Nov 02 14:33:17.540773 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197]     raise TypeError(repr(o) + " is not JSON serializable")
+[Thu Nov 02 14:33:17.540784 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197] TypeError: b'qwerty' is not JSON serializable
+[Thu Nov 02 14:33:17.540807 2017] [wsgi:error] [pid 30325] [remote 87.1.70.92:22197] 
+[Thu Nov 02 14:33:51.959703 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429] [2017-11-02 14:33:51,956] ERROR in app: Exception on /seismic/login_form [POST]
+[Thu Nov 02 14:33:51.959741 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429] Traceback (most recent call last):
+[Thu Nov 02 14:33:51.959749 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Nov 02 14:33:51.959756 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     response = self.full_dispatch_request()
+[Thu Nov 02 14:33:51.959762 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Nov 02 14:33:51.959769 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     rv = self.handle_user_exception(e)
+[Thu Nov 02 14:33:51.959775 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Nov 02 14:33:51.959782 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     reraise(exc_type, exc_value, tb)
+[Thu Nov 02 14:33:51.959788 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+[Thu Nov 02 14:33:51.959795 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     raise value
+[Thu Nov 02 14:33:51.959801 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Nov 02 14:33:51.959808 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     rv = self.dispatch_request()
+[Thu Nov 02 14:33:51.959814 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Nov 02 14:33:51.959820 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Nov 02 14:33:51.959827 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/home/tesi/Seismic/Server/seismic_server.py", line 56, in handle_login
+[Thu Nov 02 14:33:51.959834 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     response = jsonify(toSend.toDict())
+[Thu Nov 02 14:33:51.959840 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 263, in jsonify
+[Thu Nov 02 14:33:51.959847 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     (dumps(data, indent=indent, separators=separators), '\\n'),
+[Thu Nov 02 14:33:51.959853 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 123, in dumps
+[Thu Nov 02 14:33:51.959860 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     rv = _json.dumps(obj, **kwargs)
+[Thu Nov 02 14:33:51.959866 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+[Thu Nov 02 14:33:51.959872 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     **kw).encode(obj)
+[Thu Nov 02 14:33:51.959879 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/lib/python3.5/json/encoder.py", line 200, in encode
+[Thu Nov 02 14:33:51.959885 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     chunks = list(chunks)
+[Thu Nov 02 14:33:51.959891 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/lib/python3.5/json/encoder.py", line 429, in _iterencode
+[Thu Nov 02 14:33:51.959898 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     yield from _iterencode_dict(o, _current_indent_level)
+[Thu Nov 02 14:33:51.959915 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/lib/python3.5/json/encoder.py", line 403, in _iterencode_dict
+[Thu Nov 02 14:33:51.959922 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     yield from chunks
+[Thu Nov 02 14:33:51.959928 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/lib/python3.5/json/encoder.py", line 436, in _iterencode
+[Thu Nov 02 14:33:51.959934 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     o = _default(o)
+[Thu Nov 02 14:33:51.959939 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/local/lib/python3.5/dist-packages/flask/json.py", line 80, in default
+[Thu Nov 02 14:33:51.959945 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     return _json.JSONEncoder.default(self, o)
+[Thu Nov 02 14:33:51.959951 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+[Thu Nov 02 14:33:51.959957 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429]     raise TypeError(repr(o) + " is not JSON serializable")
+[Thu Nov 02 14:33:51.959964 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429] TypeError: b'qwerty' is not JSON serializable
+[Thu Nov 02 14:33:51.959992 2017] [wsgi:error] [pid 30419] [remote 87.1.70.92:21429] 

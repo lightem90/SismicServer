@@ -1,4 +1,10 @@
+# Check compatibility
+try:
+  eval("1 if True else 2")
+except SyntaxError:
+  raise ImportError("requires ternary support")
 # -*- coding: UTF-8 -*-
+import copy
 from flask import Flask, jsonify, render_template, request, json  # From module flask import class Flask
 from flask import make_response
 
@@ -14,13 +20,6 @@ app = Flask(__name__)  # Construct an instance of Flask class for our webapp
 @app.teardown_appcontext
 def shutdown_session(exception=None):
     db_session.remove()
-
-@app.route('/seismic/shutdown', methods=['POST'])
-def shutdown():    
-	db_session.remove()
-    	shutdown_server()
-    	return 'Server shutting down...'
-
 
 @app.route('/seismic/registration_form', methods=['POST'])
 def handle_registration():
@@ -52,7 +51,9 @@ def handle_login():
         return make_response("user not present", 550)
     else:
         if user.verify_password(password):
-            response = jsonify(user.toDict())
+            toSend = copy.deepcopy(user)
+            toSend.stringify_password()
+            response = jsonify(toSend.toDict())
             response.status_code = 200
             return response
         else:

@@ -36,12 +36,14 @@ class User(Base):
         return '<User %r>' % self.name
 
     def hash_password(self, password):
-        self.secret = base64.b64encode(password)
+        self.secret = base64.b64encode(password.encode("utf-8"))
         return password
 
     def verify_password(self, password):
-        return password == base64.b64decode(self.secret)
+        return password == base64.b64decode(self.secret).decode("utf-8")
 
+    def stringify_password(self):
+        self.secret = base64.b64decode(self.secret).decode("utf-8")
 
 class Report(Base):
     __tablename__ = 'reports'
